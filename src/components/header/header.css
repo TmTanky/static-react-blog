@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
+:root {
+    --big: 'Roboto Condensed', sans-serif;
+    --small: 'Cabin', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #EEEE;
+    padding: 0.5rem;
+}
+
+.navlogo {
+    flex: 1;
+}
+
+.navlogo h1 {
+    font-family: var(--big);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.navlinks {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.navlinks a {
+    font-family: var(--small);
+    margin: 0rem 0.5rem;
+}
+
+.linkers {
+    color: black;
+}

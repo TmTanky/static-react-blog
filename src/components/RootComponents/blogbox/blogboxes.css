@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
+:root {
+    --big: 'Roboto Condensed', sans-serif;
+    --small: 'Cabin', sans-serif;
+}
+
+.blogboxes {
+    padding: 3rem 1rem;
+    margin: 2rem 0.5rem;
+    background-color: #EEEE;
+    border-radius: 5px;
+}
+
+.blogboxes h1 {
+    margin: 1.5rem 0rem;
+    font-family: var(--big);
+}
+
+.blogboxes p {
+    font-family: var(--small);
+}

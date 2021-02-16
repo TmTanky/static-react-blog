@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
+:root {
+    --big: 'Roboto Condensed', sans-serif;
+    --small: 'Cabin', sans-serif;
+}
+
+.footerbox {
+    background-color: #EEEE;
+    padding: 0.7rem 0rem;
+}
+
+.footerdetail {
+    font-family: var(--small);
+    text-align: center;
+}

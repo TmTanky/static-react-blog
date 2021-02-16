@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
+:root {
+    --big: 'Roboto Condensed', sans-serif;
+    --small: 'Cabin', sans-serif;
+}
+
+.articlebox {
+    padding: 5rem 0rem;
+}
+
+.onlyarticle {
+    padding: 4rem 1rem;
+}
+
+.onlyarticle h1 {
+    font-family: var(--big);
+    font-size: 4rem;
+    margin: 1.5rem 0rem;
+}
+
+.onlyarticle p {
+    font-family: var(--small);
+    font-size: 1.5rem;
+}
