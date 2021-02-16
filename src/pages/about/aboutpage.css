@@ -6,7 +6,7 @@
 }
 
 .aboutbox {
-    padding: 10rem 1rem;
+    padding: 8rem 1rem;
 }
 
 .abouttitle {
@@ -18,4 +18,20 @@
 .aboutdetail {
     font-family: var(--small);
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutbox {
+        padding: 3rem 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .abouttitle {
+        font-size: 15vw;
+    }
+
+    .aboutdetail {
+        font-size: 5.5vw;
+    }
 }

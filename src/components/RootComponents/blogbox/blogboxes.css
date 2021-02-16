@@ -20,3 +20,9 @@
 .blogboxes p {
     font-family: var(--small);
 }
+
+@media screen and (max-width: 400px) {
+    .blogboxes {
+        margin: 1rem 0;
+    }
+}
